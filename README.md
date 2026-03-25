@@ -30,7 +30,7 @@ Tipagem de Dados: Trabalho com tipos primitivos (double) e objetos (String), ent
 🛠️ Tecnologias Utilizadas
 Java JDK 17+
 
-IDE (Ambiente de Desenvolvimento)
+IDE (Visual Studio 2022)
 
 Git/GitHub para versionamento
 
