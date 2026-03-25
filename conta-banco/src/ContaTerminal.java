@@ -23,11 +23,11 @@ public class ContaTerminal {
         System.out.println("|========| Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo " + saldo + " já está disponível para saque |=========|");
     
         //Aqui eu aproveito para fazer um "botão de loop", para caso o usuário queira criar outra conta.
-        System.out.println("Deseja criar outra conta? (S/N)");
+        System.out.println("|========|Deseja criar outra conta? (S/N)|=========|");
         String resposta = sc.next();
 
         while(!resposta.equalsIgnoreCase("S") && !resposta.equalsIgnoreCase("N")){
-            System.out.println("Resposta inválida, por favor digite S para sim ou N para não.");
+            System.out.println("|========|Resposta inválida, por favor digite S para sim ou N para não.|=========|");
             resposta = sc.next();
         }
 
@@ -35,7 +35,7 @@ public class ContaTerminal {
             main(args);
         }
         else{
-            System.out.println("Muito obrigado por utilizar nossos serviços, volte sempre!!");
+            System.out.println("|========|Muito obrigado por utilizar nossos serviços, volte sempre!!|========|");
         }
 
     }
